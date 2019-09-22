@@ -9,8 +9,7 @@ source ./build-essential.sh
 source ./docker-compose.sh
 source ./docker-moby.sh
 source ./docker.sh
-# source ./git.sh
-# source ./1604/go.sh
+source ./1604/dotnetcore-sdk
 source ./hhvm.sh
 source ./java-tools.sh
 source ./1604/kubernetes-tools.sh
