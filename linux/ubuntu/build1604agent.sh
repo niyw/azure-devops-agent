@@ -2,7 +2,9 @@ source $HELPER_SCRIPTS/document.sh
 source $HELPER_SCRIPTS/apt.sh
 source ./7-zip.sh
 source ./azcopy.sh
-source ./azure-cli.sh
+#source ./azure-cli.sh
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
 source ./azure-devops-cli.sh
 source ./1604/basic.sh
 source ./build-essential.sh
