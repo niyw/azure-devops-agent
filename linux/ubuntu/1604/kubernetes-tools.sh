@@ -11,7 +11,9 @@ source $HELPER_SCRIPTS/apt.sh
 
 ## Install kubectl
 apt-get install -y apt-transport-https
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+#https://myassfordata.blob.core.windows.net/testssh/apt-key.gpg
+#https://packages.cloud.google.com/apt/doc/apt-key.gpg
+curl -s https://myassfordata.blob.core.windows.net/testssh/apt-key.gpg | apt-key add -
 touch /etc/apt/sources.list.d/kubernetes.list
 echo "deb http://apt.kubernetes.io/ kubernetes-$(lsb_release -cs) main" | tee -a /etc/apt/sources.list.d/kubernetes.list
 apt-get update
