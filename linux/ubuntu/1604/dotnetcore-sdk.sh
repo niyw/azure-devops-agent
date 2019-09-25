@@ -14,3 +14,4 @@ apt-get install apt-transport-https
 apt-get update
 apt-get install dotnet-sdk-2.1
 apt-get install dotnet-sdk-2.2
+apt-get install dotnet-sdk-3.0
