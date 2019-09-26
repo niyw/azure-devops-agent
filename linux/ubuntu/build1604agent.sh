@@ -11,7 +11,7 @@ source ./build-essential.sh
 source ./docker-compose.sh
 source ./docker-moby.sh
 source ./docker.sh
-source ./1604/dotnetcore-sdk
+source ./1604/dotnetcore-sdk.sh
 source ./hhvm.sh
 source ./java-tools.sh
 source ./1604/kubernetes-tools.sh
